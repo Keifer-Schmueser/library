@@ -1,0 +1,21 @@
+#header {
+  text-align: center;
+}
+
+html {
+  background-color: darkgray;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: repeat(6, 200px);
+}
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(6, 200px);
+}
+
+#addBookForm {
+  display: none;
+}
